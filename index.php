@@ -11,7 +11,7 @@ $config = [
     'resume_link' => '#',
     
     'about' => [
-        'description' => 'I\'m a passionate developer with expertise in creating modern web applications. I love turning complex problems into simple, beautiful solutions.',
+        'description' => 'I\'m a passionate developer with expertise in creating modern applications and games. I love turning complex problems into simple, beautiful solutions.',
         'years_experience' => '5+',
         'projects_completed' => '50+',
         'technologies' => '20+'
