@@ -1,13 +1,13 @@
 <?php
 // Configuration - Easy to modify content
 $config = [
-    'name' => 'Your Name',
+    'name' => 'KawaiiBunga',
     'title' => 'Full Stack Developer',
     'tagline' => 'Building digital experiences that matter',
-    'email' => 'hello@example.com',
-    'github' => 'https://github.com/yourusername',
-    'linkedin' => 'https://linkedin.com/in/yourusername',
-    'discord' => 'yourusername',
+    'email' => 'kawaii@razznetworks.com',
+    'github' => 'https://github.com/KawaiiBunga',
+    'linkedin' => 'https://www.linkedin.com/in/levi-crozier-a1b454313/',
+    'discord' => 'kawaii.bunga',
     'resume_link' => '#',
     
     'about' => [
