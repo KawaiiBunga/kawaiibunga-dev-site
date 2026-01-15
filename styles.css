@@ -1298,12 +1298,12 @@ ul, ol {
     }
     
     .hero-content {
-        order: 1;
+        order: 0;
     }
     
     .hero-visual {
-        order: 0;
-        margin-bottom: var(--space-xl);
+        order: 1;
+        margin-top: var(--space-xl);
     }
     
     .hero-description {
