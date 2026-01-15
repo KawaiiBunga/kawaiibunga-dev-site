@@ -174,10 +174,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['contact_submit'])) {
                     <i data-lucide="moon" class="theme-icon-dark"></i>
                     <i data-lucide="sun" class="theme-icon-light"></i>
                 </button>
-                <a href="<?php echo htmlspecialchars($config['resume_link']); ?>" class="btn btn-primary btn-sm">
+                <!-- <a href="<?php echo htmlspecialchars($config['resume_link']); ?>" class="btn btn-primary btn-sm">
                     <i data-lucide="download"></i>
                     Resume
-                </a>
+                </a> -->
             </div>
         </div>
     </nav>
@@ -234,24 +234,23 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['contact_submit'])) {
                             <span class="dot yellow"></span>
                             <span class="dot green"></span>
                         </div>
-                        <span class="code-title">developer.js</span>
+                        <span class="code-title">developer.lua</span>
                     </div>
-                    <pre class="code-content"><code><span class="code-keyword">const</span> <span class="code-variable">developer</span> = {
-  <span class="code-property">name</span>: <span class="code-string">"<?php echo htmlspecialchars($config['name']); ?>"</span>,
-  <span class="code-property">role</span>: <span class="code-string">"<?php echo htmlspecialchars($config['title']); ?>"</span>,
-  <span class="code-property">passion</span>: <span class="code-string">"Building amazing things"</span>,
-  <span class="code-property">coffee</span>: <span class="code-boolean">true</span>,
+                    <pre class="code-content"><code><span class="code-keyword">local</span> <span class="code-variable">developer</span> = {
+  <span class="code-property">name</span> = <span class="code-string">"<?php echo htmlspecialchars($config['name']); ?>"</span>,
+  <span class="code-property">role</span> = <span class="code-string">"<?php echo htmlspecialchars($config['title']); ?>"</span>,
+  <span class="code-property">passion</span> = <span class="code-string">"Building amazing things"</span>
   
-  <span class="code-function">code</span>() {
-    <span class="code-keyword">return</span> <span class="code-string">"Clean & Efficient"</span>;
-  },
+  <span class="code-function">code</span> = <span class="code-keyword">function</span>()
+    <span class="code-keyword">return</span> <span class="code-string">"Clean & Efficient"</span>
+  <span class="code-keyword">end</span>,
   
-  <span class="code-function">solve</span>(<span class="code-param">problem</span>) {
-    <span class="code-keyword">return</span> <span class="code-variable">this</span>.<span class="code-function">think</span>()
-      .<span class="code-function">plan</span>()
-      .<span class="code-function">execute</span>();
-  }
-};</code></pre>
+  <span class="code-function">solve</span> = <span class="code-keyword">function</span>(<span class="code-param">problem</span>)
+    <span class="code-keyword">return</span> <span class="code-variable">self</span>:<span class="code-function">think</span>()
+      :<span class="code-function">plan</span>()
+      :<span class="code-function">execute</span>()
+  <span class="code-keyword">end</span>
+}</code></pre>
                 </div>
             </div>
         </div>
@@ -541,7 +540,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['contact_submit'])) {
             
             <div class="footer-bottom">
                 <p>&copy; <?php echo date('Y'); ?> <?php echo htmlspecialchars($config['name']); ?>. All rights reserved.</p>
-                <p>Crafted with <i data-lucide="heart" class="heart-icon"></i> and lots of coffee</p>
+                <p>Crafted with <i data-lucide="heart" class="heart-icon"></i> and lots of love</p>
             </div>
         </div>
     </footer>
