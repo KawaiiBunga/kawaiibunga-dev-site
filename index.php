@@ -14,7 +14,8 @@ $config = [
         'description' => 'I\'m a passionate developer with experience in creating modern applcations, addons, and games. I love turning complex problems into simple, beautiful solutions.',
         'years_experience' => '10+',
         'projects_completed' => '50+',
-        'technologies' => '15+'
+        'technologies' => '15+',
+        'image_url' => 'https://serverscout.site/img/avatar.png'
     ],
     
     'skills' => [
@@ -291,7 +292,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['contact_submit'])) {
                 <div class="about-image">
                     <div class="image-frame">
                         <div class="image-placeholder">
-                            <i data-lucide="user"></i>
+                            <img src="<?php echo htmlspecialchars($config['about']['image_url']); ?>"
+                                 alt="Photo of <?php echo htmlspecialchars($config['name']); ?>"
+                                 class="about-photo">
                         </div>
                         <div class="image-decoration"></div>
                     </div>
