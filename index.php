@@ -19,9 +19,9 @@ $config = [
     
     'skills' => [
         'Frontend' => ['HTML5', 'CSS3', 'JavaScript'],
-        'Backend' => ['PHP', 'Laravel', 'Python', 'MySQL', 'Lua', 'GDScript', 'C#'],
-        'Tools' => ['Git', 'Docker', 'AWS', 'Linux', 'VS Code'],
-        'Other' => ['REST APIs', 'CI/CD', 'CLI']
+        'Backend' => ['PHP', 'Laravel', 'Python', 'MySQL', 'Lua', 'GDScript', 'C#', "Golang"],
+        'Tools' => ['Git', 'Docker', 'AWS', 'Linux', 'VS Code', "Bash/SH"],
+        'Other' => ['REST APIs', 'CI/CD', 'CLI', "Networking"]
     ],
     
     'projects' => [
