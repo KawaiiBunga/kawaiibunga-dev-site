@@ -2,7 +2,7 @@
 // Configuration - Easy to modify content
 $config = [
     'name' => 'KawaiiBunga',
-    'title' => 'Full Stack Developer',
+    'title' => 'Head Developer @ Razz Networks',
     'tagline' => 'Building experiences that matter',
     'email' => 'kawaii@razznetworks.com',
     'github' => 'https://github.com/KawaiiBunga',
@@ -11,7 +11,7 @@ $config = [
     'resume_link' => '#',
     
     'about' => [
-        'description' => 'I\'m a passionate developer with experience in creating modern applcations and games. I love turning complex problems into simple, beautiful solutions.',
+        'description' => 'I\'m a passionate developer with experience in creating modern applcations, addons, and games. I love turning complex problems into simple, beautiful solutions.',
         'years_experience' => '10+',
         'projects_completed' => '50+',
         'technologies' => '15+'
@@ -26,7 +26,7 @@ $config = [
     
     'projects' => [
         [
-            'title' => 'Garrys Mod Skilltree',
+            'title' => 'Garrys Mod DarkRP Skilltree',
             'description' => 'A full-stack Garrys Mod addon allowing users to meta-progress different aspects of DarkRP Gameplay',
             'tags' => ['Lua', 'MySQL'],
             'link' => '#',
@@ -34,67 +34,62 @@ $config = [
             'image' => 'https://serverscout.site/img/projects/skilltree-1.png'
         ],
         [
-            'title' => 'Project Beta',
-            'description' => 'E-commerce platform with payment integration and inventory management.',
-            'tags' => ['PHP', 'MySQL', 'Stripe'],
+            'title' => 'Garrys Mod DarkRP Scoreboard',
+            'description' => 'A Garrys Mod DarkRP addon to show connected players and all the info about them',
+            'tags' => ['Lua', 'MySQL'],
             'link' => '#',
             'github' => '#',
-            'image' => 'https://via.placeholder.com/600x400/8b5cf6/ffffff?text=Project+Beta'
+            'image' => 'https://serverscout.site/img/projects/scoreboard-1.png'
         ],
         [
-            'title' => 'Project Gamma',
-            'description' => 'Mobile-first progressive web app with offline capabilities.',
-            'tags' => ['Vue.js', 'PWA', 'Firebase'],
+            'title' => 'Garrys Mod DarkRP Welcome Screen',
+            'description' => 'A Garrys Mod DarkRP addon to show a clean, modern welcome menu to joining players.',
+            'tags' => ['Lua', 'MySQL'],
             'link' => '#',
             'github' => '#',
-            'image' => 'https://via.placeholder.com/600x400/ec4899/ffffff?text=Project+Gamma'
+            'image' => 'https://serverscout.site/img/projects/welcome-menu-1.png'
         ],
         [
-            'title' => 'Project Delta',
-            'description' => 'API service handling millions of requests with high availability.',
-            'tags' => ['Python', 'FastAPI', 'Redis'],
+            'title' => 'Garrys Mod Help Menu',
+            'description' => 'A Garrys Mod addon for players to reference important information about the server.',
+            'tags' => ['Lua', 'MySQL'],
             'link' => '#',
             'github' => '#',
-            'image' => 'https://via.placeholder.com/600x400/14b8a6/ffffff?text=Project+Delta'
+            'image' => 'https://serverscout.site/img/projects/help-menu-1.png'
         ]
     ],
     
     'experience' => [
         [
-            'role' => 'Senior Developer',
-            'company' => 'Tech Company',
-            'period' => '2022 - Present',
-            'description' => 'Leading development of scalable web applications and mentoring junior developers.'
+            'role' => 'Head Developer',
+            'company' => 'Razz Networks',
+            'period' => 'August, 2025 - Present',
+            'description' => 'Leading development of the Razz Networks platform and managing a team of developers.'
         ],
         [
-            'role' => 'Full Stack Developer',
-            'company' => 'Digital Agency',
-            'period' => '2020 - 2022',
-            'description' => 'Built custom solutions for clients across various industries.'
+            'role' => 'Developer @ Razz Networks',
+            'company' => 'Razz Networks',
+            'period' => 'June, 2025 - August, 2025',
+            'description' => 'Developed and maintained various addons and systems for the Razz Networks Garrys Mod DarkRP server.'
         ],
         [
-            'role' => 'Junior Developer',
-            'company' => 'Startup Inc',
-            'period' => '2018 - 2020',
-            'description' => 'Developed features and fixed bugs for the main product platform.'
+            'role' => 'Owner',
+            'company' => 'Karma Communities',
+            'period' => 'May 2022 - Present',
+            'description' => 'Owned and managed Karma Communities, a community gaming platform with various servers including Garrys Mod, Minecraft, Plutonium COD, and more.'
         ]
     ],
     
     'services' => [
         [
             'icon' => 'code',
-            'title' => 'Web Development',
-            'description' => 'Custom websites and web applications built with modern technologies.'
+            'title' => 'Garrys Mod Development',
+            'description' => 'Custom Garrys Mod addons, game modes, and systems for your server.'
         ],
         [
             'icon' => 'server',
             'title' => 'Backend Systems',
             'description' => 'Robust APIs and server-side solutions that scale with your needs.'
-        ],
-        [
-            'icon' => 'palette',
-            'title' => 'UI/UX Design',
-            'description' => 'Beautiful, intuitive interfaces that users love to interact with.'
         ],
         [
             'icon' => 'rocket',
