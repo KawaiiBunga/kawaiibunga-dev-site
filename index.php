@@ -3,7 +3,7 @@
 $config = [
     'name' => 'KawaiiBunga',
     'title' => 'Full Stack Developer',
-    'tagline' => 'Building digital experiences that matter',
+    'tagline' => 'Building experiences that matter',
     'email' => 'kawaii@razznetworks.com',
     'github' => 'https://github.com/KawaiiBunga',
     'linkedin' => 'https://www.linkedin.com/in/levi-crozier-a1b454313/',
@@ -11,27 +11,27 @@ $config = [
     'resume_link' => '#',
     
     'about' => [
-        'description' => 'I\'m a passionate developer with expertise in creating modern applications and games. I love turning complex problems into simple, beautiful solutions.',
-        'years_experience' => '5+',
+        'description' => 'I\'m a passionate developer with experience in creating modern applcations and games. I love turning complex problems into simple, beautiful solutions.',
+        'years_experience' => '10+',
         'projects_completed' => '50+',
-        'technologies' => '20+'
+        'technologies' => '15+'
     ],
     
     'skills' => [
-        'Frontend' => ['HTML5', 'CSS3', 'JavaScript', 'React', 'Vue.js', 'Tailwind CSS'],
-        'Backend' => ['PHP', 'Node.js', 'Python', 'MySQL', 'PostgreSQL', 'MongoDB'],
-        'Tools' => ['Git', 'Docker', 'AWS', 'Linux', 'VS Code', 'Figma'],
-        'Other' => ['REST APIs', 'GraphQL', 'CI/CD', 'Agile', 'Testing', 'Security']
+        'Frontend' => ['HTML5', 'CSS3', 'JavaScript'],
+        'Backend' => ['PHP', 'Laravel', 'Python', 'MySQL', 'Lua', 'GDScript', 'C#'],
+        'Tools' => ['Git', 'Docker', 'AWS', 'Linux', 'VS Code'],
+        'Other' => ['REST APIs', 'CI/CD', 'CLI']
     ],
     
     'projects' => [
         [
-            'title' => 'Project Alpha',
-            'description' => 'A full-stack web application with real-time features and modern UI.',
-            'tags' => ['React', 'Node.js', 'MongoDB'],
+            'title' => 'Garrys Mod Skilltree',
+            'description' => 'A full-stack Garrys Mod addon allowing users to meta-progress different aspects of DarkRP Gameplay',
+            'tags' => ['Lua', 'MySQL'],
             'link' => '#',
             'github' => '#',
-            'image' => 'https://via.placeholder.com/600x400/6366f1/ffffff?text=Project+Alpha'
+            'image' => 'https://serverscout.site/img/projects/skilltree-1.png'
         ],
         [
             'title' => 'Project Beta',
