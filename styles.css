@@ -690,6 +690,7 @@ ul, ol {
     color: var(--text-muted);
     position: relative;
     z-index: 1;
+    overflow: hidden;
 }
 
 .image-placeholder i {
